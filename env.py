@@ -6,7 +6,7 @@ load_dotenv()
 API_ID = os.getenv("API_ID", "12124605").strip()
 API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "5482246993:AAFXFotHJdyp0sw0Fqcf6OG8WIOgZuRLdcA").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://shortnerfly:shortnerfly@cluster0.0j4igwq.mongodb.net/?retryWrites=true&w=majority").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "cynitebackup")
 
 if not API_ID:
