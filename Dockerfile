@@ -14,8 +14,8 @@ COPY requirements.txt /requirements.txt
 # Installing Requirements
 RUN cd /
 RUN pip3 install -U -r requirements.txt
-RUN mkdir /stringjnm
-WORKDIR /stringjnm
+RUN mkdir /string
+WORKDIR /string
 COPY start.sh /start.sh
 
 # Running Bot
