@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+API_ID = os.getenv("API_ID", "12124605").strip()
+API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "5482246993:AAFXFotHJdyp0sw0Fqcf6OG8WIOgZuRLdcA").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+MUST_JOIN = os.getenv("MUST_JOIN", "cynitebackup")
 
 if not API_ID:
     print("No API_ID found. Exiting...")
