@@ -3,9 +3,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "12124605").strip()
-API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "5482246993:AAFXFotHJdyp0sw0Fqcf6OG8WIOgZuRLdcA").strip()
+API_ID = os.getenv("API_ID", "13234025").strip()
+API_HASH = os.getenv("API_HASH", "e49d63dc6665c4c3338a7cac8cfc914d").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "5654225595:AAHs5zyo77h9Oi0JNq4rC-k05nb08Jb4P7k").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://shortnerfly:shortnerfly@cluster0.0j4igwq.mongodb.net/?retryWrites=true&w=majority").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "cynitebackup")
 
